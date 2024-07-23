@@ -1,0 +1,9 @@
+name: My first Workflow
+on: push
+Jobs: 
+  first_job:
+       runs-on: first
+       steps:
+       - name: test
+         run: echo "My first run"
+         
